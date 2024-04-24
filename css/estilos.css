@@ -38,6 +38,10 @@ h3, p, a {
     font-family: var(--parrafos);
 }
 
+img{
+    max-width: 100%;
+}
+
 .verde {
     color: var(--verde);
 }
