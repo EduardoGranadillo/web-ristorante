@@ -323,6 +323,22 @@ video {
     font-size: 5rem;
 }
 
+.botones-platillos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .botones-platillos button {
-    background-color: var(--verde);
+flex: 0 0 calc(50% - 1rem);
+padding: 1rem 3rem;
+} 
+
+@media(min-width: 768px){
+    .botones-platillos {
+        display: inline-block;
+    }
+    .botones-platillos button{
+        flex: unset;
+    }
 }
